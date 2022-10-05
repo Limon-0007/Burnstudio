@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar starts from here */
+
+.container {
+  margin-top: 2%;
+}
+
+.navbar-brand {
+  margin-left: 3%;
+}
+.navbar-nav {
+  margin-left: 40%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* hire me section starts from here */
+
+.text-center {
+  margin-top: 8%;
+}
+.g-col-12 {
+  height: 350px;
+  border: 0.5px solid rgb(184, 173, 173) !important;
+}
+.text-center h6 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text-center p {
+  color: #000000;
+  font-weight: 400;
+  margin-top: 3%;
+}
+
+.btn-outline-dark {
+  margin-top: 3%;
+  font-weight: 500;
+}
+
+/* my latest projects statts from here */
+
+.text-start {
+  margin-top: 5%;
+  margin-left: 3%;
+  color: #000000;
+  margin-bottom: 3rem;
+}
+
+.card-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* footer section starts from here */
+
+.container-fluid {
+  text-align: justify;
+  font-weight: 400 !important;
+  font-size: 15px;
+  color: #444444 !important;
+}
+
+.images img {
+  width: 152px;
+  height: 102px;
+}
+.row1 {
+  background-color: rgba(229, 229, 229, 1);
+  margin-top: 7%;
+  border-radius: 10px;
+}
+.images {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.image-text {
+  display: block;
+  box-sizing: border-box;
+}
+
+.img-heading {
+  font-size: 17px;
+  font-weight: 500 !important;
+  text-align: start;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 442px) {
+  .img-heading {
+    font-size: 14px;
+    text-align: initial;
+  }
+}
+
+.img-text {
+  font-size: 13px;
+  font-weight: 300;
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 442px) {
+  .img-text {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.img-text a {
+  text-decoration: none;
+  color: #ca1f1f;
+}
+
+.logos {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logos a img {
+  height: 30px;
+  width: 30px;
+}
+
+/* footer section starts from here */
+.last-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.last-footer p .last {
+  font-size: 15px;
+  font-weight: 600px;
+  color: #000000;
+}
+
+.last a {
+  text-decoration: none;
+  color: #ca1f1f;
+}
+
+.portfolio a {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 442px) {
+  .footer {
+    display: block;
+  }
+}
+
+/* the end */
